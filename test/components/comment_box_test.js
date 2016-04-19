@@ -20,7 +20,7 @@ describe('CommentBox', () => {
     expect(component).to.have.class('comment-box');
   });
 
-  describe('entering some text', () =>{
+  describe('Entering some text', () =>{
     beforeEach(() => {
       component.find('textarea').simulate('change', 'new comment');
     });
